@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body {
+    font-size: 19x;
+    font-family: 'Caveat', cursive;
+} 
+
+h1{ 
+    color:rgb(111, 0, 0);
+    position: absolute;
+    z-index: 1;
+    top: 51%;
+    left: 57%;
+    transform: translate(-50%) 
+}
+h1:hover{ 
+    color:rgba(254, 222, 222, 0); 
+}
+h1:hover:after{ 
+    color:rgba(51, 38, 38, 0.735);
+    content: "I love you!";
+    margin-left: -106px;
+
+}
+img {     
+    position: relative;   
+    height: 300px;
+    margin: 100px auto;
+    display: block;
+    animation: heart 1.2s infinite;
+}
+
+
+@keyframes heart {
+/*   from {
+    transform: scale(.7);
+    }
+    to {
+    transform: scale(1.1)
+    }
+} */
+0% {
+    transform: scale( .7 );
+    }
+20% {
+    transform: scale( 1.1 );
+    }
+40% {
+    transform: scale( .8 );
+    }
+50% {
+    transform: scale( 1.2 );
+    }
+100% {
+    transform: scale( .7 );
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
